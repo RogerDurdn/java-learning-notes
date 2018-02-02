@@ -20,10 +20,16 @@ public class RecorrerConFor {
 		//de ella hacia el lado derecho*(la y)
 		
 		for(int i=0; i < nombres.length;i++) {
+			//el ciclo for externo es el que define los renglones de la matriz, comenzando en 0
+			
 			for(int j = 0; j<nombres[i].length;j++) {
-				System.out.println("El valor de la celda :"+i+" "+j+": es: "+nombres[i][j]);
-                 //por ultimo imprimimos el valor de cada celda que estara sujeta a los valores de i(x) y j(y) en cada ciclo del for
+				//en este ciclo interno se definen las columnas de la matriz, 
 				
+				System.out.println("El valor de la celda :"+i+" "+j+": es: "+nombres[i][j]);
+                 
+				//por ultimo imprimimos el valor de cada celda que estara sujeta a los valores de i(x) y j(y) en cada ciclo del for
+		//Nota, el ciclo for externo, continua hasta qye el ciclo for interno aya terminado con su ciclo
+			//(hasta que se complete su condicion.)
 			}
 		}
 		
