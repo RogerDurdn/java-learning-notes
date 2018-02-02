@@ -7,8 +7,9 @@ package MtricesManejo;
  * int i = enteros [1][0]; Se extrae el elemento del indice 1-0
  * 
  * Ejemplos de tipo Object:
+ * 
  * Persona p1 = personas[0][0]; Donde se inica con la clase a la que pertenece la matriz, seguida de 
- * la variable receptora y se iguala con el nombre de la matriz y los indices solicitados.
+ *                              la variable receptora y se iguala con el nombre de la matriz y los indices solicitados.
  * Persona p2 = personas[1][0]; 
  * 
  * String nombres1 = nombres[0][0];
