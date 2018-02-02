@@ -22,7 +22,7 @@ public class Persona {
 		}
 		@Override
 		public String toString() {
-			return "persona: "+getPersona();
+			return "persona: {nombre: ["+getPersona()+"]}";
 		}
 		
 	}

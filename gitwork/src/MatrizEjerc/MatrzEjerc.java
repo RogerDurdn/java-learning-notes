@@ -7,11 +7,10 @@ public class MatrzEjerc {
 		int [][] numeros;
 		Persona [][] personas;
 		
-		String [][] nombres= {{"juan","pepe","paco","josue"},{"albert","fuli","guy","poncho"}};
 		
 		personas = new Persona[3][2];
 		numeros = new int [3][3];
-		
+		String [][] nombres= {{"juan","pepe","paco","josue"},{"albert","fuli","guy","poncho"}};
 		
 		personas [0][0] = new Persona("luis");
 		personas [0][1]= new Persona("juan");
@@ -52,7 +51,7 @@ public class MatrzEjerc {
 					
 					for(int j = 0;j<personas[i].length;j++) {
 						
-						System.out.println("la celda:["+i+"]["+j+"] tiene la:"+personas[i][j]);
+						System.out.println("la celda:["+i+"]["+j+"] tiene a la "+personas[i][j]);
 						
 					}
 				}
