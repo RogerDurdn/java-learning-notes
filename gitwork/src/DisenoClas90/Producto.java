@@ -2,23 +2,27 @@ package DisenoClas90;
 
 public class Producto {
 	private int idProducto;
-	 String nombre;
-	private double precio;
+	private String nombre;
+	private  double precio;
+	 static int contadorProductos;
 	
 	public Producto() {
-		
+		this.idProducto = ++contadorProductos;
 	}
+
 	public Producto(String nombre, double precio) {
+		this();
 		this.nombre = nombre;
 		this.precio = precio;
+		
 	}
 	public String getNombre() {
 		return   nombre;
 	}
-	public double getPrecio() {
+	public  double getPrecio() {
 		return precio;
 	}
-	public  String setNombre(String nombre) {
+	public  void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
 	public void setPrecio(double precio) {
@@ -26,7 +30,7 @@ public class Producto {
 	}
 	@Override
 	public String toString () {
-		return "el producto:"+nombre+"con id:"+"tiene un precio de:"+precio; 
+		return nombre+"\tid:"+idProducto+": \tprecio:"+precio; 
 	}
 	
 	
