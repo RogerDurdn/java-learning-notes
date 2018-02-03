@@ -46,6 +46,7 @@ public class Ventas {
 		     	}while(d.equals("si")); 
 		      
 		      orden.mostrarOrden();	
+		      System.out.println("");
 		      f = JOptionPane.showInputDialog("Quiere realizar otra compra?: si,no");
 	
 		 }while(f.equals("si"));

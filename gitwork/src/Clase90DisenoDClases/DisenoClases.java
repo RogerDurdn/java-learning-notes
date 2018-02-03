@@ -13,7 +13,7 @@ package Clase90DisenoDClases;
  *                -productos[]:Producto                    (atributos)
  *                ______________________________________________________         
  *                +Orden()
- *                +agregar (producto:producto ):booolean
+ *                +agregarProducto (producto:producto ):booolean
  *                +calcularTotal():double                   (metodos)
  *                +mostrarOrden():void
  *                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
