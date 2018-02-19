@@ -1,3 +1,4 @@
+
 package Clase102ForEachArgVar;
 /*============================================================FOREACH ARGUMENTOS VARIABLES=========================
  * Este metodo simplifica la iteracion entre arreglos o conexiones,
