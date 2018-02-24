@@ -25,8 +25,11 @@ package Clase119InstanceOff;
  * 
  * Su uso en JAVA:
  * Si corresponde con el tipo de dato, regresa True, de lo contrario regresa false,
- * 
- * 	
+ * -Se debe de hacer la comparacion desde las clases inferiores hacia las superiores, ya que si comenzamos con las clases superiores, regresa un true y 
+ * las demas clases(inferiores) ya no las analisa.
+ * -Solo puede usarce en variables de tipo object
+ * -Sirbe para la gerarquia de clases, ver el codigo claramente, saber cuales clases son subclases y asi poder usar sus metodos etc
+ * Permite saber el tipo de dato del objeto en TIEMPO DE EJECUCION y asi poder realizar alguna accion por la relacion detectada
  * */
 public class InstanceOff {
 	

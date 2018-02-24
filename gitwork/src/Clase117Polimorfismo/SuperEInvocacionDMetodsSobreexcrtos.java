@@ -24,7 +24,7 @@ import Clase115SobreEsrcMetodosOverrididing.*;
  * a reutilizar, 
  * 
  * -----Para aplicar el concepto de polimorfismo es necesario apoyarnos de una jerarquia de clases, y utilizar un tipo de datos que pueda almacenar referencia de
- * objetos en la jerarquia de clases deseada.
+ * objetos en la jerarquia de clases deseada. 
  * */
 public class SuperEInvocacionDMetodsSobreexcrtos {
 	
