@@ -24,7 +24,7 @@ public class Empleado {
 	}
 	@Override
 	public String toString() {
-		return "nombre:"+nombre+"\nsueldo:"+sueldo;
+		return "\nnombre:"+nombre+"\nsueldo:"+sueldo;
 	}
 	@Override
 	public boolean equals(Object obj) {
