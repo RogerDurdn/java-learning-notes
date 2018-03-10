@@ -45,7 +45,7 @@ public class Exceptions2Ejercicio {
 					System.out.println("Error lectura: Podemos procesar solo la exepcion mas generica");	
 					}
 			finally {
-				System.out.println("El uso de finally es opcional pero siempre se ejecuta, aya o no errores");
+				System.out.println("El uso de finally es opcional pero siempre se ejecuta, aya o no erroreswwwww");
 			}
 			}else {
 			System.out.println("No se proporciono ninguna accion conocida");
